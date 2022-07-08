@@ -25,6 +25,10 @@ h3 {
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
 }
+h6 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
 .col-sm {
   text-align: center;
   color: black;
