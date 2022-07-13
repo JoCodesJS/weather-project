@@ -49,7 +49,7 @@ searchForm.addEventListener("submit", search);
 function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = `${temperature}°C`;
+  temperatureElement.innerHTML = `${temperature}`;
   let description = document.querySelector("#temperature-description");
   description.innerHTML = response.data.weather[0].description;
   let iconElement = document.querySelector("#icon");
