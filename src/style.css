@@ -1,8 +1,8 @@
 body {
   max-width: 450px;
-  margin: 0 auto;
+  margin: 30px auto;
+  padding: 10px;
   border-radius: 4px;
-  border: 1px solid #dadde1;
 }
 h1 {
   font-size: 60px;
@@ -21,9 +21,18 @@ h3 {
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
 }
-h6 {
-  font-size: 15px;
+li {
+  list-style: none;
+  text-align: center;
   font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+#humidity {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
 }
 .col-sm {
   text-align: center;
@@ -32,13 +41,13 @@ h6 {
   margin-left: 2.5px;
   margin-right: 2.5px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
-  background-color: #e1f7fa;
+  background-color: #e5effc;
   transition: all 150ms ease-in-out;
 }
 .col-sm:hover {
-  background-color: #effdfd;
+  background-color: white;
 }
 .borders {
   background-color: white;
@@ -64,4 +73,13 @@ p {
   display: inline-block;
   width: 82%;
   font-family: "Roboto", sans-serif;
+}
+.borders {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+  padding: 10px;
+  border-radius: 4px;
 }
