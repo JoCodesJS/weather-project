@@ -1,22 +1,25 @@
 body {
-  max-width: 450px;
+  max-width: 420px;
   margin: 30px auto;
   padding: 10px;
   border-radius: 4px;
+  background-color: #00d8d8;
 }
 h1 {
   font-size: 60px;
+  color: black;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  padding: 10px;
 }
 h2 {
   font-size: 50px;
+  color: black;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
 h3 {
   text-align: center;
+  color: white;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
@@ -25,29 +28,30 @@ li {
   list-style: none;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   text-transform: capitalize;
+  color: grey;
 }
 #humidity {
   text-align: center;
+
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-transform: capitalize;
 }
 .col-sm {
   text-align: center;
-  color: black;
-  margin-bottom: 2.5px;
-  margin-left: 2.5px;
-  margin-right: 2.5px;
+  color: grey;
+  margin: 2px;
+  padding: 5px;
   border-radius: 4px;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Roboto", sans-serif;
-  background-color: #e5effc;
+  background-color: #e2fafa;
   transition: all 150ms ease-in-out;
 }
 .col-sm:hover {
-  background-color: white;
+  background-color: #b6fcfc;
 }
 .borders {
   background-color: white;
@@ -61,25 +65,25 @@ p {
   font-size: 10px;
   font-family: "Roboto", sans-serif;
 }
+a {
+  font-size: 10px;
+}
 .units {
   text-align: center;
 }
 .col-3 {
   float: right;
-  width: 17%;
+  width: 21%;
   font-family: "Roboto", sans-serif;
+  position: relative;
+  display: flex;
 }
 .col-9 {
   display: inline-block;
-  width: 82%;
+  width: 75%;
   font-family: "Roboto", sans-serif;
 }
 .borders {
-  background: radial-gradient(
-    592px at 48.2% 50%,
-    rgba(255, 255, 249, 0.6) 0%,
-    rgb(160, 199, 254) 74.6%
-  );
-  padding: 10px;
-  border-radius: 4px;
+  padding: 15px;
+  border-radius: 7px;
 }

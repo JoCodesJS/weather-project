@@ -12,13 +12,9 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -41,64 +37,55 @@
               <input
                 type="submit"
                 value="Search"
-                class="btn btn-secondary"
+                class="btn btn-outline-secondary"
               />
             </div>
       <p id="date"></p>
-      <h1 id="city">New York<strong></strong></h1>
-      <img src="http://openweathermap.org/img/wn/01d@2x.png" width="150px" id="icon" />
-      <h2 id="temperature">90°<strong></strong></h2>
+      <h1 id="city">New York</h1>
+      <img src="http://openweathermap.org/img/wn/01d@2x.png" width="90px" id="icon" />
+      <h2 id="temperature">89°</h2>
 
       
   
-      <li><span id="temperature-description"></span></li>
+      <li><span id="temperature-description">Clear Sky</span></li>
       <li>Humidity: <span id="humidity"></span>%</li>
       <li>Wind: <span id ="wind"></span> M/H</li>
+      
       <br />
-      <div class="container">
+      <div class="container" id="forecast">
         <div class="row">
           <div class="col-sm">
-            Sat<br />
-            <img src="http://openweathermap.org/img/wn/01d@2x.png" width="40px" />
-            H: 80°<br />
-            L: 65°
+      <img src="http://openweathermap.org/img/wn/01d@2x.png" width="40px" />
+            <strong>80°</strong>/ 65° </br>
+            Sat
           </div>
           <div class="col-sm">
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" width="40px" />
+            <strong>74°</strong>/ 60°
             Sun<br />
-           
-            <img src="http://openweathermap.org/img/wn/01d@2x.png" width="40px" />
-            H: 74°<br /> 
-            L: 60°
           </div>
           <div class="col-sm">
+          <img src="http://openweathermap.org/img/wn/04d@2x.png" width="40px" />
+            <strong>78°</strong>/ 62°
             Mon<br />
-            
-            <img src="http://openweathermap.org/img/wn/04d@2x.png" width="40px" />
-            H: 78°<br /> 
-            L: 62°
           </div>
           <div class="col-sm">
-            Tues<br />
-            
             <img src="http://openweathermap.org/img/wn/01d@2x.png" width="40px" />
-            H: 81°<br />
-            L: 67°
+            <strong>81°</strong>/ 67°
+            Tues<br />
           </div>
           <div class="col-sm">
-            Wed<br />
-            
             <img src="http://openweathermap.org/img/wn/04d@2x.png" width="40px" />
-            H: 80°<br /> 
-            L: 61°
+            <strong>80°</strong>/ 61°
+            Wed<br />
           </div>
         </div>
       </div>
     </div>
 
     <script src="src/script.js"></script>
+  
+ <a href="https://github.com/JoCodesJS/weather-project" target="blank">Open-source code by Joanna Bak</a>
   </body>
-  <h6>
-    <a href="https://github.com/JoCodesJS/weather-project" target="blank">Open-source code</a> by Joanna B.
-  </h6>
 </html>
   
